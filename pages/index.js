@@ -33,7 +33,7 @@ function ProfileRelationsBox(propriedades) {
       <ul>
         
         { propriedades.items.map((itemAtual, key) => {
-          if(key < 7 ){
+          if(key < 6 ){
             return(
               <li key={itemAtual.id}>
                 <a href={`${itemAtual.html_url}`}>
